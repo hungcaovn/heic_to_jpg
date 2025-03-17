@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "ru.sigmait.heic_to_jpg"
     compileSdkVersion 28
 
     sourceSets {
